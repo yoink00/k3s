@@ -106,6 +106,7 @@ func NewServerCommand(action func(*cli.Context) error) cli.Command {
 			FlannelFlag,
 			FlannelIfaceFlag,
 			CRIEndpointFlag,
+			ResolvConfFlag,
 		},
 	}
 }
